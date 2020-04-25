@@ -117,6 +117,19 @@ Training on full data set, If we compare 3 epochs of Full VGG network, it has hi
 
 ResNet-18 with Full unfreeze layers outperforms VGG as with 3 epochs it gives 88% accuracy with 1 F1 score. 
 
+## True Positive or True Negative with High Probability
+
+![](images/BPI1.png)
+
+
+![](images/BPI2.png)
+
+## False Positive or False Negative with High Probability
+
+![](images/WPI1.png)
+
+
+![](images/WPI2.png)
 
 
 Dataset Link: https://drive.google.com/file/d/1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK/view
