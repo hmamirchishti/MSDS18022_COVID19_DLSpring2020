@@ -4,14 +4,6 @@ This repository contains code and results for COVID-19 classification assignment
 
 Attached notebook contains two type of experiments one with freezing all layers of VGG16 adn ResNet18 and adding new FC layers by removing already added ones, second type is to train networks by unfreezing some CNN layers and finally doing a critical analysis of unfreezing all CNN layers of both already trained models by retraining it.
 
-You can find trained models in trained models folder:
-
-  1. vgg16_FC_Only.pth
-  2. res18_FC_Only.pth
-  3. vgg16_entire.pth
-  4. res18_entire.pth
-
-
 ## VGG16 and ResNet18 with FC layers training
 
 ### ResNet-18
@@ -124,3 +116,14 @@ Learning Rate = 0.001, Epochs = 5, Batch Size = 8, Momentum = 0.95 with Last CNN
 Training on full data set, If we compare 3 epochs of Full VGG network, it has highest F1 score, although accuracy remains the same to 87% which we received in FC layer. So, again, by more epochs this score can increase to near 90% or go beyond that.
 
 ResNet-18 with Full unfreeze layers outperforms VGG as with 3 epochs it gives 88% accuracy with 1 F1 score. 
+
+
+
+Dataset Link: https://drive.google.com/file/d/1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK/view
+
+You can find trained models in trained models folder:
+
+  1. vgg16_FC_Only.pth
+  2. res18_FC_Only.pth
+  3. vgg16_entire.pth
+  4. res18_entire.pth
