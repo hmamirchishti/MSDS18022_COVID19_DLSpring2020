@@ -2,7 +2,7 @@
 This repository contains code and results for COVID-19 classification assignment by Deep Learning Spring 2020 course offered at Information Technology University, Lahore, Pakistan. This assignment is only for learning purposes and is not intended to be used for clinical purposes.
 
 
-Attached notebook contains two type of experiments one with freezing all layers of VGG16 adn ResNet18 and adding new FC layers by removing already added ones, second type is to train networks by unfreezing some CNN layers and finally doing a critical analysis of unfreezing all CNN layers of both already trained models by retraining it.
+Attached notebook contains two type of experiments one with freezing all FC layers of VGG16 adn ResNet18 and adding new FC layers by removing already added ones, second type is to train networks by unfreezing some CNN layers and finally doing a critical analysis of unfreezing all CNN layers of both already trained models by retraining it.
 
 ## VGG16 and ResNet18 with FC layers training
 
