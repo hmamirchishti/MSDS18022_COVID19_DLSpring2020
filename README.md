@@ -2,7 +2,7 @@
 This repository contains code and results for COVID-19 classification assignment by Deep Learning Spring 2020 course offered at Information Technology University, Lahore, Pakistan. This assignment is only for learning purposes and is not intended to be used for clinical purposes.
 
 
-Attached notebook contains two type of experiments one with freezing all layers of VGG16 adn ResNet18 and adding new FC layers by removing already added ones, second type is to train networks by unfreezing some CNN layers and finally doing a critical analysis of unfreezing all CNN layers of both already trained models by retraining it.
+Attached notebook contains two type of experiments one with freezing all FC layers of VGG16 adn ResNet18 and adding new FC layers by removing already added ones, second type is to train networks by unfreezing some CNN layers and finally doing a critical analysis of unfreezing all CNN layers of both already trained models by retraining it.
 
 ## VGG16 and ResNet18 with FC layers training
 
@@ -21,12 +21,6 @@ Learning Rate = 0.0001, Epochs = 5, Batch Size = 8, Momentum = 0.9
 ![](images/image011.png)
 
 ![](images/image012.png)
-
-Best Images: with true labels
-![](images/image006.png)
-
-Worse Images: with true labels
-![](images/image007.png)
 
 #### Experiment 2:
 Learning Rate = 0.01, Epochs = 5, Batch Size = 8, Momentum = 0.95
@@ -56,12 +50,6 @@ Learning Rate = 0.001, Epochs = 3, Batch Size = 60, Momentum = 0.9
 ![](images/image023.png)
 
 ![](images/image024.png)
-
-Best Images: with true labels
-![](images/image018.png)
-
-Worse Images: with true labels
-![](images/image019.png)
 
 #### Experiment 2:
 Learning Rate = 0.01, Epochs = 5, Batch Size = 8, Momentum = 0.95
@@ -117,11 +105,24 @@ Training on full data set, If we compare 3 epochs of Full VGG network, it has hi
 
 ResNet-18 with Full unfreeze layers outperforms VGG as with 3 epochs it gives 88% accuracy with 1 F1 score. 
 
+## True Positive or True Negative with High Probability
+
+![](images/BPI1.png)
+
+
+![](images/BPI2.PNG)
+
+## False Positive or False Negative with High Probability
+
+![](images/WPI1.PNG)
+
+
+![](images/WPI2.PNG)
 
 
 Dataset Link: https://drive.google.com/file/d/1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK/view
 
-You can find trained models in trained models folder:
+You can find trained models under models folder:
 
   1. vgg16_FC_Only.pth
   2. res18_FC_Only.pth
