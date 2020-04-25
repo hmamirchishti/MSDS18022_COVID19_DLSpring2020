@@ -22,12 +22,6 @@ Learning Rate = 0.0001, Epochs = 5, Batch Size = 8, Momentum = 0.9
 
 ![](images/image012.png)
 
-Best Images: with true labels
-![](images/image006.png)
-
-Worse Images: with true labels
-![](images/image007.png)
-
 #### Experiment 2:
 Learning Rate = 0.01, Epochs = 5, Batch Size = 8, Momentum = 0.95
 
@@ -56,12 +50,6 @@ Learning Rate = 0.001, Epochs = 3, Batch Size = 60, Momentum = 0.9
 ![](images/image023.png)
 
 ![](images/image024.png)
-
-Best Images: with true labels
-![](images/image018.png)
-
-Worse Images: with true labels
-![](images/image019.png)
 
 #### Experiment 2:
 Learning Rate = 0.01, Epochs = 5, Batch Size = 8, Momentum = 0.95
