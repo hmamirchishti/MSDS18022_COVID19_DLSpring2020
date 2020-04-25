@@ -122,14 +122,14 @@ ResNet-18 with Full unfreeze layers outperforms VGG as with 3 epochs it gives 88
 ![](images/BPI1.png)
 
 
-![](images/BPI2.png)
+![](images/BPI2.PNG)
 
 ## False Positive or False Negative with High Probability
 
-![](images/WPI1.png)
+![](images/WPI1.PNG)
 
 
-![](images/WPI2.png)
+![](images/WPI2.PNG)
 
 
 Dataset Link: https://drive.google.com/file/d/1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK/view
