@@ -119,12 +119,25 @@ ResNet-18 with Full unfreeze layers outperforms VGG as with 3 epochs it gives 88
 
 ![](images/WPI2.PNG)
 
+## VGG-16 with Focal Loss
+I did the experiment using following architecture and hyperparameters: 
+
+Architecture of Network: VGG with three FC layer of 1024, 512 and 3 depth respectively.
+Epochs = 5 with BCEWithLogitsLoss(), lr=0.005, momentum=0.9
+with alpha = 1 and gamma =2
+
+![](images/FL_images/image010.png)
+
+![](images/FL_images/image011.png)
+
+![](images/FL_images/image012.png)
+
+![](images/FL_images/image013.png)
+
+![](images/FL_images/image014.png)
+
 
 Dataset Link: https://drive.google.com/file/d/1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK/view
+Dataset Link for FL experiments: https://drive.google.com/open?id=1eytbwaLQBv12psV8I-aMkIli9N3bf8nO&authuser=1
 
-You can find trained models under weights folder:
-
-  1. vgg16_FC_Only.pth
-  2. res18_FC_Only.pth
-  3. vgg16_entire.pth
-  4. res18_entire.pth
+Note: You can find trained models under weights folder.
