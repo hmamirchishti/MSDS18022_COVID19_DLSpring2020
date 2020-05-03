@@ -122,7 +122,7 @@ ResNet-18 with Full unfreeze layers outperforms VGG as with 3 epochs it gives 88
 
 Dataset Link: https://drive.google.com/file/d/1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK/view
 
-You can find trained models under models folder:
+You can find trained models under weights folder:
 
   1. vgg16_FC_Only.pth
   2. res18_FC_Only.pth
